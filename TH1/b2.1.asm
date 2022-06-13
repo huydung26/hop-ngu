@@ -1,0 +1,5 @@
+MOV AX, 5226    ;AX <- 5226 (AH = 14, AL = 6A)
+ADD AL, 5       ;AL <- AL + 5 (AL = 6F, AX = 146F)
+DEC AX          ;AX <- AX - 1 (AH = 14, AL = 6E, AX = 146E)
+SUB AH, 12h     ;AH <- AH - 12h (AH = 02, AL = 6E, AX = 026E)
+AND AX, 146Ah   ;AX <- AX and 146Ah (AX = 006A)

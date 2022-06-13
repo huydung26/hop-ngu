@@ -1,0 +1,5 @@
+MOV AX, 8086    ;AX <- 8086 (AH = 1F, AL = 96)
+ADD AL, 3       ;AL <- AL + 3 (AL = 99, AX = 1F99)
+DEC AX          ;AX <- AX - 1 (AH = 1F, AL = 98, AX = 1F98)
+SUB AH, 10h     ;AH <- AH - 10h (AH = 0F, AL = 98, AX = 0F98)
+AND AX, 0FF0h   ;AX <- AX and 0FF0h (AX = 0F90)
